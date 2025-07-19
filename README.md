@@ -36,6 +36,10 @@ Exports slicing process profiles (layer height, speed, ironing, wall settings, s
 
 Unzip the exported archive before committing to maintain version control visibility. Extract all files to the `\exported-presets\Process presets\` folder, then delete the original `.zip` file. Individual JSON files provide better diff tracking and merge resolution than compressed archives.
 
+## Root Presets
+
+Before changing any the presets save the Bambu supplied preset as Root *. e.g. `Root 0.20mm Standard @BBL A1` is the Bambu supplied `0.20mm Standard @BBL A1` process. Then save the Root preset with a name for the preset you are configuring, e.g. Standard 0.40mm Nozzle, Strong 0.40mm nozzle, etc.
+
 ## 📦 Additional Folders
 
 These folders are not exported directly by Bambu Studio but support calibration, benchmarking, and documentation for repeatable print testing and evaluation.
